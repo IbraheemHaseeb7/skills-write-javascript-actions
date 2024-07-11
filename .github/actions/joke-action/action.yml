@@ -2,6 +2,10 @@ name: "my joke action"
 
 description: "use an external API to retreive a joke and display that"
 
+outputs:
+  joke-output:
+    description: The resulting joke from the iconhazdadjokes API
+
 runs:
   using: "node16"
   main: "main.js"
